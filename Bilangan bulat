@@ -1,0 +1,9 @@
+bilangan = int (input("Masukkan bilangan bulat: "))
+
+hexa = hex(bilangan)
+binary = bin(bilangan)
+octal = oct(bilangan)
+
+print("Bilangan heksadesimal:", hexa)
+print("Bilangan biner:", binary)
+print("Bilangan oktal:", octal)
